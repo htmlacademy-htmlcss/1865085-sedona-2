@@ -1,0 +1,164 @@
+@font-face {
+    font-family: "PT Sans";
+    src: url("../fonts/ptsans-400.woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    src: url("../fonts/ptsans-700.woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+    font-style: normal;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.text-large {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.text-small {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: center;
+    color: #000000;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.logo-sedona
+
+.logo-link
+
+.header-nav
+
+.nav-list
+
+.nav-item
+
+.nav-link
+
+.menu-list
+
+.menu-item
+
+.menu-link
+
+.fav-text
+
+.main-index {
+    width: 1200px;
+}
+
+.welcome {
+    background-color: #b3b3b3;
+    background-image: url("../img/index-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.welcome-img
+
+.advantages
+
+.advantages-list
+
+.advantages-container
+
+.advantages-definition {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.advantages-description {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    text-align: center;
+    color: #000000;
+}
+
+.advantages-img {
+    width: 800px;
+    height: 385px;
+}
+
+.relax
+
+.relax-container
+
+.relax-definition {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.relax-description {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    text-align: center;
+    color: #000000;
+}
+
+.reserv
+
+.reserv-link
+
+.page-footer
+
+.subscription
+
+.subscription-index
+
+.subs-form
+
+.media
+
+.media-list
+
+.media-item
+
+.contacts
+
+.phone
+
+.academy-logo
+
+.htmla-link
+
+.htmla-logo
