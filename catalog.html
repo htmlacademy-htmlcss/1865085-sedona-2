@@ -2,9 +2,8 @@
 <html lang="ru">
 
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>HTML Academy: Седона</title>
-    <link rel="stylesheet" href="./styles/styles.css">
   </head>
 
   <body>
@@ -54,72 +53,62 @@
           </ul>
         </nav>
       </header>
-      <main class="main-index">
-        <h1 class="visually-hidden">Неофициальный сайт города Седоны</h1>
-        <section class="welcome">
-          <h2 class="visually-hidden">Приглашение посетить Седону</h2>
-          <img src="./img/welcome.svg" class="welcome-img"
-            alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks!">
-        </section>
-        <section class="advantages">
-          <div class="advantages-wrapper">
-            <h2 class="advantages-head">Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
-            <p class="advantages-text">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
-          </div>
-          <ul class="advantages-list">
-            <li class="advantages-item item-pic">
-              <div class="advantages-container">
-                <h3 class="advantages-definition after-white">Настоящий городок</h3>
-                <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-              </div>
-              <img src="./img/street.jpg" class="advantages-pic" width="800" height="385" alt="Одна из улиц Седоны">
+      <main class="main-catalog">
+        <h1 class="visually-hidden">Каталог гостиниц Седоны</h1>
+        <section class="filters">
+          <h2 class="">Гостиницы Седоны</h2>
+          <ul class="breadcrumbs-list">
+            <li class="breadcrumbs-item">
+              <a href="index.html" class="breadcrumbs-link">
+                <span class="visually-hidden">На главную</span>
+              </a>
             </li>
-            <li class="advantages-item">
-              <h3 class="advantages-definition after-black">Небольшая площадь</h3>
-              <p class="advantages-description">Все достопримечательности находятся очень близко</p>
-            </li>
-            <li class="advantages-item">
-              <h3 class="advantages-definition after-black">Красивая дорога</h3>
-              <p class="advantages-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-            </li>
-            <li class="advantages-item">
-              <h3 class="advantages-definition after-black">Мало туристов</h3>
-              <p class="advantages-description">Большинство едет в Гранд Каньон и толпится там</p>
-            </li>
-            <li class="advantages-item item-pic">
-              <img src="./img/devils-bridge.jpg" class="advantages-pic" width="800px" height="385px"
-                Salt="Фото моста Дьявола">
-              <div class="advantages-container">
-                <h3 class="advantages-definition after-white">Там есть мост Дьявола</h3>
-                <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-              </div>
+            <li class="breadcrumbs-item">
+              <a href="#" class="breadcrumbs-link">Гостиницы</a>
             </li>
           </ul>
+          <form action="https://echo.htmlacademy.ru/" method="post" class="filters-form">
+            <fieldset>
+              <legend>Инфраструктура:</legend>
+              <ul>
+                <li>
+                  <input type="checkbox" id="pool" checked />
+                  <label for="pool">Бассейн</label>
+                </li>
+                <li><input type="checkbox" id="parking" checked />
+                  <label for="parking">Парковка</label>
+                </li>
+                <li><input type="checkbox" id="wifi" />
+                  <label for="wifi">Wi-Fi</label>
+                </li>
+              </ul>
+            </fieldset>
+            <fieldset>
+              <legend>Тип Жилья:</legend>
+              <ul>
+                <li>
+                  <input type="radio" id="hotel" checked />
+                  <label for="hotel">Гостиница</label>
+                </li>
+                <li><input type="radio" id="motel" />
+                  <label for="votel">Мотель</label>
+                </li>
+                <li><input type="radio" id="appartment" />
+                  <label for="appartment">Апартаменты</label>
+                </li>
+              </ul>
+            </fieldset>
+          </form>
         </section>
-        <section class="relax">
-          <div class="relax-wrapper">
-            <h2 class="relax-head">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
-            <p class="relax-text">Опытный персонал и качественное обслуживание!</p>
-          </div>
-          <dl class="relax-list">
-            <div class="relax-container housing">
-              <dt class="relax-definition">Жильё</dt>
-              <dd class="relax-description">Рекомендуем пожить<br>в настоящем мотеле,<br>всё как в кино!</dd>
-            </div>
-            <div class="relax-container food">
-              <dt class="relax-definition">Еда</dt>
-              <dd class="relax-description">Всегда заказывайте<br>топовый фирменный бургер,<br>вы не разочаруетесь!</dd>
-            </div>
-            <div class="relax-container souvenirs">
-              <dt class="relax-definition">Сувениры</dt>
-              <dd class="relax-description">Не только китайского,<br>но и настоящего местного<br>производства!</dd>
-            </div>
-          </dl>
-        </section>
+        <section class="results"></section>
+        <section class="pagination"></section>
         <section class="reserv">
-          <h2 class="reserv-head">Заинтересовались?</h2>
-          <p class="reserv-text">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в
-            Седоне</p>
+          <h2 class="visually-hidden">Бронирование гостинцы в Седоне</h2>
+          <p class="reserv-text-1">Заинтересовались?</p>
+          <p class="reserv-text-1">
+            Укажите предполагаемые даты поездки,и мы покажем вам лучшие
+            предложения гостиниц в Седоне
+          </p>
           <a href="#" class="reserv-link">Поиск гостинцы в Седоне</a>
         </section>
       </main>
