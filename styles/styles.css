@@ -1262,10 +1262,6 @@ body {
   list-style: none;
 }
 
-.pagination-list:hover {}
-
-.pagination-list:focus {}
-
 .pagination-link {
   text-decoration: none;
   display: block;
