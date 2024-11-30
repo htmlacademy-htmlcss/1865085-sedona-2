@@ -17,7 +17,7 @@
         <nav class="header-nav">
           <ul class="nav-list">
             <li class="nav-item">
-              <a class="nav-link nav-link-active">Главная</a>
+              <a href="#" class="nav-link nav-link-active">Главная</a>
             </li>
             <li class="nav-item">
               <a href="#" class="nav-link">О Седоне</a>
@@ -130,7 +130,8 @@
           <p class="subscription-text text-color">Только полезная информация и никакого спама, честное бойскаутское!
           </p>
           <form action="https://echo.htmlacademy.ru/" class="subs-form" method="post">
-            <input class="subscription-input" type="email" placeholder="Ваш e-mail" required>
+            <label class="visually-hidden" for="your-email">Ваш email</label>
+            <input class="subscription-input" type="email" id="your-email" placeholder="Ваш e-mail" required>
             <button class="subscription-button" type="submit">Подписаться</button>
           </form>
         </section>
@@ -243,13 +244,13 @@
           <label for="arrival-date" class="modal-text">Дата заезда:</label>
           <div class="data-wrapper">
             <input type="text" id="arrival-date" class="data-input" name="reserv-arrival-date" value="27 апреля 2020"
-              placeholder="Укажите дату">
+              placeholder="Укажите дату" required>
             <span class="submit-text error-text">Мы не можем отправить вас в прошлое.</span>
           </div>
           <label for="departure-date" class="modal-text">Дата выезда:</label>
           <div class="data-wrapper">
             <input type="text" id="departure-date" class="data-input" name="reserv-departure-date"
-              value="1 сентября 2023" placeholder="Укажите дату">
+              value="1 сентября 2023" placeholder="Укажите дату" required>
             <span class="submit-text">На эти даты есть свободные номера. Пока есть.</span>
           </div>
           <label for="adults" class="modal-text">Взрослые:</label>
@@ -262,7 +263,7 @@
                 </svg>
               </button>
             </div>
-            <input type="text" id="adults" class="number-input" name="number-of-adults" value="2">
+            <input type="text" id="adults" class="number-input" name="number-of-adults" value="2" required>
             <div class="button-plus-wrapper">
               <button type="button" class="button-plus">
                 <span class="visually-hidden">Увеличить</span>
@@ -289,7 +290,7 @@
                 </svg>
               </button>
             </div>
-            <input type="text" id="children" class="number-input" name="number-of-children" value="2">
+            <input type="text" id="children" class="number-input" name="number-of-children" value="2" required>
             <div class="button-plus-wrapper">
               <button type="button" class="button-plus">
                 <span class="visually-hidden">Увеличить</span>
