@@ -1525,7 +1525,7 @@ body {
 .child-info-text {
   display: none;
   position: absolute;
-  top: 25px;
+  top: 41px;
   left: -114px;
   width: 256px;
   border-radius: 10px;
@@ -1536,6 +1536,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+  text-align: left;
   color: #ffffff;
   z-index: 1;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
