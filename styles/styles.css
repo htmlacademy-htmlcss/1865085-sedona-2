@@ -1520,6 +1520,7 @@ body {
   margin-top: 11px;
   position: relative;
   border: none;
+  font-family: inherit;
 }
 
 .child-info-text {
