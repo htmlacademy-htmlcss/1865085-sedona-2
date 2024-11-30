@@ -56,7 +56,7 @@ body {
 .header-nav {
   display: flex;
   width: 100%;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   margin-left: 184px;
 }
@@ -66,7 +66,14 @@ body {
   padding: 0;
   margin: 0;
   display: flex;
-  gap: 32px;
+  gap: 5px 32px;
+  flex-wrap: wrap;
+  width: 340px;
+  margin-top: 10px;
+}
+
+.nav-item {
+  padding: 10px 0 0 0;
 }
 
 .nav-link {
@@ -104,6 +111,9 @@ body {
   margin: 0;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  width: 271px;
+  margin-top: 14px;
 }
 
 .menu-link {
@@ -357,6 +367,7 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
+  flex-wrap: wrap;
 }
 
 .relax-container {
@@ -591,7 +602,8 @@ body {
 .links {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
   width: 1060px;
   min-height: 50px;
   margin: 0 auto;
@@ -605,12 +617,13 @@ body {
   width: 150px;
   min-height: 50px;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   list-style: none;
   padding: 0;
   padding-left: 11px;
   margin: 0;
   box-sizing: border-box;
+  margin-top: 14px;
 }
 
 .media-item {
@@ -637,6 +650,8 @@ body {
   flex-wrap: wrap;
   width: 500px;
   justify-content: center;
+  margin-top: 3px;
+  margin-right: 6px;
 }
 
 .phone {
@@ -661,6 +676,10 @@ body {
   color: rgba(117, 97, 87, 0.3);
 }
 
+.academy-wrapper {
+  width: 115px;
+  margin-top: 6px;
+}
 .academy-link {
   color: #000000;
 }
@@ -1033,7 +1052,6 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
-  display: block;
   padding: 0;
   margin: 0;
   margin-top: 6px;
@@ -1127,7 +1145,6 @@ body {
   padding: 0;
   margin: 0;
   gap: 18px 20px;
-  align-items: start;
 }
 
 .card-item {
@@ -1236,7 +1253,6 @@ body {
   width: 140px;
   min-height: 37px;
   margin: 0;
-  padding: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
