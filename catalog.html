@@ -141,12 +141,12 @@
             <ul class="view-list">
               <li class="view-item">
                 <a href="catalog.html?view=tile" class="view-link view-link-tile">
-                <span class="visually-hidden">Плитка</span>
-              </a>
+                  <span class="visually-hidden">Плитка</span>
+                </a>
               </li>
               <li class="view-item"><a href="catalog.html?view=card" class="view-link view-link-slideshow">
-                <span class="visually-hidden">Слайдшоу</span>
-              </a>
+                  <span class="visually-hidden">Слайдшоу</span>
+                </a>
               </li>
               <li class="view-item">
                 <a href="catalog.html?view=list" class="view-link view-link-list">
@@ -245,7 +245,8 @@
           <h2 class="subscription-head">Подпишитесь на рассылку</h2>
           <p class="subscription-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form action="https://echo.htmlacademy.ru/" class="subs-form" method="post">
-            <input class="subscription-input" type="email" placeholder="Ваш e-mail" required>
+            <label class="visually-hidden" for="your-email">Ваш email</label>
+            <input class="subscription-input" type="email" id="your-email" placeholder="Ваш e-mail" required>
             <button class="subscription-button" type="submit">Подписаться</button>
           </form>
         </section>
